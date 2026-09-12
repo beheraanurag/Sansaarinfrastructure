@@ -1,4 +1,4 @@
-import { aboutLandscape } from '../../assets/images'
+import { excavationSite } from '../../assets/images'
 import Button from '../common/Button'
 import FadeIn from '../common/FadeIn'
 import ImageFrame from '../common/ImageFrame'
@@ -40,12 +40,12 @@ export default function AboutPreview() {
         </FadeIn>
         <FadeIn delay={0.12}>
           <ImageFrame
-            src={aboutLandscape}
-            alt="Mineral landscape representing Sansaar Infrastructure’s operating context"
-            width={1600}
-            height={900}
+            src={excavationSite}
+            alt="Excavator working at a laterite mining site"
+            width={960}
+            height={1280}
             className="lg:-mr-8 lg:min-h-[28rem]"
-            imgClassName="min-h-[22rem] lg:min-h-[28rem]"
+            imgClassName="min-h-[22rem] object-[center_35%] lg:min-h-[28rem]"
           />
         </FadeIn>
       </PageContainer>

@@ -10,6 +10,7 @@ import IronOreJourney from '../components/home/IronOreJourney'
 import LeadershipPreview from '../components/home/LeadershipPreview'
 import ProjectsPreview from '../components/home/ProjectsPreview'
 import ResponsibleOperations from '../components/home/ResponsibleOperations'
+import SiteFootage from '../components/home/SiteFootage'
 import WhySansaarPreview from '../components/home/WhySansaarPreview'
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <Hero />
       <CompanySnapshot />
       <AboutPreview />
+      <SiteFootage />
       <BusinessGrid />
       <IronOreJourney />
       <ProjectsPreview />

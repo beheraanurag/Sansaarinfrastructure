@@ -1,5 +1,6 @@
 export { default as logo } from './brand/sansaar-logo.jpg'
 export { default as heroMine } from './home/home-mining-hero.webp'
+export { default as excavationSite } from './home/excavation-site.jpg'
 export { default as aboutLandscape } from './about/about-mining-landscape.webp'
 export { default as ironOre } from './business/iron-ore-stockpile.webp'
 export { default as mineralLoading } from './business/mineral-loading.webp'
