@@ -48,9 +48,9 @@ export default function Header() {
             <img
               src={logo}
               alt="Sansaar Infrastructure"
-              width={72}
-              height={72}
-              className={`h-12 w-auto md:h-14 ${onHero ? 'brightness-110' : ''}`}
+              width={80}
+              height={80}
+              className={`h-16 w-auto md:h-20 ${onHero ? 'brightness-110' : ''}`}
             />
           </Link>
           <nav className="hidden items-center gap-1 lg:flex" aria-label="Primary">
